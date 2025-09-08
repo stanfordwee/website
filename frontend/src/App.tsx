@@ -4,15 +4,9 @@ import welcomeImg from "./assets/photos/events/20220922_122341.jpg";
 import { motion } from "framer-motion";
 import {
   ChevronRight,
-  ArrowRight,
   Users,
-  Crown,
-  Shield,
   Star,
-  Quote,
-  Calendar,
   MapPin,
-  Phone,
   Mail,
   Instagram,
   Facebook,
@@ -21,34 +15,8 @@ import {
   MoveLeft,
   MoveRight,
   X,
-  Fuel,
-  Gauge,
-  Car,
-  Zap,
-  BadgeCheck,
 } from "lucide-react";
 
-/**
- * TrueStreet Club – single‑file React UI built with TailwindCSS
- * ------------------------------------------------------------
- * This file renders a full responsive landing page inspired by the provided mockup:
- * - Sticky navbar
- * - Hero with background image, giant typography, and stat chips
- * - About + feature cards with image
- * - Logo ribbon
- * - Vehicles gallery
- * - Testimonial carousel
- * - Upcoming events
- * - Contact/Enquiries banner
- * - Footer
- *
- * Notes:
- * - All images use unsplash placeholders; swap for your assets.
- * - No data fetching—pure UI with local sample data.
- * - Animations: Framer Motion for subtle fades & slides.
- */
-
-// -------------------- mock data --------------------
 const stats = [
   { label: "members", value: "128" },
   { label: "races worldwide", value: "14" },
@@ -56,46 +24,6 @@ const stats = [
   { label: "km on the road", value: "+20,000" },
   { label: "positive vibez", value: "unlimited" },
 ];
-
-const vehicles = [
-  {
-    id: 1,
-    name: "Porsche 911 GT3 RS",
-    price: "$150,000",
-    year: 2023,
-    miles: "12,000 mi",
-    fuel: "Petrol",
-    img: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop",
-  },
-  {
-    id: 2,
-    name: "BMW M5",
-    price: "$100,000",
-    year: 2022,
-    miles: "64,000 mi",
-    fuel: "Petrol",
-    img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1600&auto=format&fit=crop",
-  },
-  {
-    id: 3,
-    name: "Nissan GT‑R (R35)",
-    price: "$150,000",
-    year: 2023,
-    miles: "12,000 mi",
-    fuel: "Petrol",
-    img: "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1600&auto=format&fit=crop",
-  },
-  {
-    id: 4,
-    name: "Porsche Cayman GTS",
-    price: "$90,000",
-    year: 2021,
-    miles: "18,300 mi",
-    fuel: "Petrol",
-    img: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1600&auto=format&fit=crop",
-  },
-];
-
 
 const events = [
   {
