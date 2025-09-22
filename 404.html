@@ -1,14 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/website/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stanford WEE</title>
-    <script type="module" crossorigin src="/website/assets/index-BWNkCvQT.js"></script>
-    <link rel="stylesheet" crossorigin href="/website/assets/index-BC5DFqr5.css">
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <meta http-equiv="refresh" content="0; URL=./" />
   </head>
   <body>
-    <div id="root"></div>
+    <script>
+      (function () {
+        var l = window.location;
+        var base = (document.querySelector('base') || {}).href || '/';
+        var normalizedBase = base.endsWith('/') ? base : base + '/';
+        var relativePath = l.pathname.replace(normalizedBase, '').replace(/^\//, '');
+        var target = normalizedBase + '#' + relativePath + l.search + l.hash;
+        l.replace(target);
+      })();
+    </script>
   </body>
 </html>
