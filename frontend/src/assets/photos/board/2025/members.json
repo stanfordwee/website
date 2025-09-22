@@ -1,0 +1,119 @@
+{
+  "roles": [
+    {
+      "file": "Sabrina Liu.jpg",
+      "name": "Sabrina Liu",
+      "position": "President"
+    },
+    {
+      "file": "Leen Abdul-Razzak.jpg",
+      "name": "Leen Abdul-Razzak",
+      "position": "Vice President, Advocacy Chair"
+    },
+    {
+      "file": "Alice Tor.jpg",
+      "name": "Alice Tor",
+      "position": "Vice President"
+    },
+    {
+      "file": "Katherine Liang.jpg",
+      "name": "Katherine Liang",
+      "position": "Financial Officer"
+    },
+    {
+      "file": "Jasmin Falconer.jpg",
+      "name": "Jasmin Falconer",
+      "position": "Social Chair"
+    },
+    {
+      "file": "Lara Wagner.jpg",
+      "name": "Lara Wagner",
+      "position": "Social Chair"
+    },
+    {
+      "file": "Antonia Castillo.jpg",
+      "name": "Antonia Castillo",
+      "position": "Outreach Chair"
+    },
+    {
+      "file": "Sara Azzouz.jpg",
+      "name": "Sara Azzouz",
+      "position": "Outreach Chair"
+    },
+    {
+      "file": "Nubia Correa.jpg",
+      "name": "Nubia Correa",
+      "position": "Advocacy Chair, Industry Liaison (committee)"
+    },
+    {
+      "file": "Alisa Hathaway.jpg",
+      "name": "Alisa Hathaway",
+      "position": "Mentorship Chair"
+    },
+    {
+      "file": "Alexis Lee.jpg",
+      "name": "Alexis Lee",
+      "position": "Mentorship Chair"
+    },
+    {
+      "file": "Emily Steiner.jpg",
+      "name": "Emily Steiner",
+      "position": "Mentorship Chair, Faculty Liaison"
+    },
+    {
+      "file": "Kenzy Elsherif.jpg",
+      "name": "Kenzy Elsherif",
+      "position": "Faculty Liaison"
+    },
+    {
+      "file": "Aditi Bhaskar.jpg",
+      "name": "Aditi Bhaskar",
+      "position": "Industry Liaison"
+    },
+    {
+      "file": "Nicole Mulvey.jpg",
+      "name": "Nicole Mulvey",
+      "position": "Industry Liaison"
+    },
+    {
+      "file": "Ana Banzer Morgado.jpg",
+      "name": "Ana Banzer Morgado",
+      "position": "Publicity Chair"
+    },
+    {
+      "file": "Raina Song.jpg",
+      "name": "Raina Song",
+      "position": "Publicity Chair"
+    },
+    {
+      "file": "Chloe Zhong.jpg",
+      "name": "Chloe Zhong",
+      "position": "Undergraduate Liaison"
+    },
+    {
+      "file": "Amy Zheng.jpg",
+      "name": "Amy Zheng",
+      "position": "Undergraduate Liaison"
+    },
+    {
+      "file": "Eva Wanek.jpg",
+      "name": "Eva Wanek",
+      "position": "Undergraduate Liaison"
+    },
+    {
+      "file": "Michelle Hedlund.jpg",
+      "name": "Michelle Hedlund",
+      "position": "General Support"
+    },
+    {
+      "file": "Geneva Ecola.jpg",
+      "name": "Geneva Ecola",
+      "position": "General Support"
+    },
+    {
+      "file": "Sarah Zou.jpg",
+      "name": "Sarah Zou",
+      "position": "General Support"
+    }
+  ]
+}
